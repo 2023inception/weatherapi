@@ -1,11 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.search-bar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.city-buttons {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.city-buttons button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#forecast-area {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
