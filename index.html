@@ -9,3 +9,20 @@
   <header>
     <h1>Weather Dashboard</h1>
   </header>
+  <div class="search-bar">
+    <input type="text" id="city-input" placeholder="Enter your city">
+    <button onclick="searchWeather()">Search</button>
+  </div>
+  <div class="city-buttons">
+    <button onclick="getWeather('Atlanta')">Atlanta</button>
+    <button onclick="getWeather('Denver')">Denver</button>
+    <button onclick="getWeather('Seattle')">Seattle</button>
+    <button onclick="getWeather('San Francisco')">San Francisco</button>
+    <button onclick="getWeather('Orlando')">Orlando</button>
+    <button onclick="getWeather('New York')">New York</button>
+    <button onclick="getWeather('Chicago')">Chicago</button>
+    <button onclick="getWeather('Austin')">Austin</button>
+  </div>
+  <div id="forecast-area"></div>
+</body>
+</html>
